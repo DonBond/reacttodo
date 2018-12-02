@@ -50,7 +50,7 @@ class App extends Component {
 
     return (
       <div className="container">
-        <div className="header">React Todo Application</div>
+        <div className="header">Todo Application</div>
         {notes}
         <div className="btn" onClick={this.addNote.bind(this)}>Add</div>
         <input type="text" ref={((input) => {this.textInput = input})}
